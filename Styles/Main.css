@@ -206,22 +206,21 @@ body{
 	height: 80%;
 	padding-left: 10px;
 	padding-right:10px;
-	font-family: Lucida Console;
+	font-family: fantasy;
 	}
 	
 	#name{
 		padding-top: 50;
-		font-size: 40px;
+		font-size: 50px;
 	}
 	
 	#role{
 		margin-top: 0px;
-		font-size: 20px;
+		font-size: 23px;
 	}		
 
 	#profile{
 		margin-top: 30;
-		font-size: 13px;
 	}
 
 	#social{
@@ -231,11 +230,11 @@ body{
 
 	.social_icons{
 		color: black;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.social_icons:hover{
 		color: darkslategray;
-		font-size: 24px;
+		font-size: 26px;
 	}
 
 	#rain_div2{
