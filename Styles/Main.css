@@ -1,0 +1,238 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+		background-image: linear-gradient(to bottom right, #00defd, #fc1dfa);
+	}
+	
+#main_div{
+	margin-top: 0;
+	padding-top: 0;
+	overflow:hidden;
+}
+
+#left_div{
+	float: right; 
+	height: 100%; 
+	width: 70%
+}
+
+#content{
+	margin: 15%;
+	margin-top:10%;
+	margin-bottom: 8%;
+	width: 70%;
+	height:70%;
+	text-align: center;
+	font-family: cursive;
+	color: white;		
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+}
+
+#name{
+	padding-top: 70;
+	font-size: 50px;
+}
+
+#role{
+    margin-top: 0px;
+	font-size: 23px;
+	color: greenyellow;
+}
+
+#org{
+    margin-top: -10px;
+	font-size:16px;
+	color: greenyellow;
+}
+
+#profile{
+	margin-top: 40;
+}
+
+#skills1{
+	display: block;
+	margin-top: 40;
+}
+#skills2{
+	display:none;
+}
+
+
+#social{
+	width: 100%;
+	margin-top: 45;
+}
+
+.social_icons{
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	margin-right: 5%;
+	transition: 0.4s;
+}
+.social_icons:hover{
+	color: darkslategray;
+	font-size: 24px;
+}
+
+#footer{
+	text-align: center;
+	color: white;
+	font-family: Monospace;
+	font-size: 14px;
+}
+
+#right_div{
+	float: right; 
+	height: 100%; 
+	width: 30%; 
+	background-image: url(Assets/Sunny-Pic.jpg); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	opacity: 0.5;
+}
+
+#binary{
+	color: white;
+	overflow:hidden;
+	opacity: 0.8;
+}
+
+#rain_div1{
+	width: 100%;
+	height: 50%;
+	z-index: -9999999;
+}
+
+#quote_div{
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 1;
+}
+
+#quote{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	opacity: 1;
+}
+
+#rain_div2{
+	width: 100%;
+	height: 40%;
+}
+
+#down_div{
+	display: none;
+	width: 100%;
+	height: 0%;
+	text-align: center;
+	color: white;
+	z-index: 9999999999999999999;
+}
+
+#scroll_down{
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+	transition: 0.4s;
+}
+#scroll_down:hover{
+	color: white;
+	font-size: 45px;
+}
+
+#down{
+	display: block;
+}
+
+#scroll_up{
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+	transition: 0.4s;
+}
+#scroll_up:hover{
+	color: white;
+	font-size: 45px;
+}
+
+#up{
+	display: none;
+}
+
+
+@media only screen and (max-width: 1100px) {
+	#skills1{
+		display: none;
+	}
+	#skills2{
+		display:block;
+		margin-top: 25;
+	}
+	
+	#profile{
+		margin-top: 30;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#left_div{
+		clear:both;
+		float: left; 
+		height: 80%; 
+		width: 100%
+	}
+
+	#right_div{
+		clear:both;
+		float: left; 
+		height: 100%; 
+		width: 100%; 
+	}
+	
+	#content{
+	margin: 5%;
+	margin-bottom: 10%;
+	width: 90%;
+	height: 80%;
+	padding-left: 10px;
+	padding-right:10px;
+	}
+	
+	#name{
+		padding-top: 50;
+		font-size: 50px;
+	}
+	
+	#role{
+		margin-top: 0px;
+		font-size: 23px;
+	}		
+
+	#profile{
+		margin-top: 30;
+	}
+
+	#social{
+	width: 100%;
+	margin-top: 30;
+	}
+
+	#rain_div2{
+	height: 30%;
+	}
+
+	#down_div{
+		height: 10%;
+		display: block;
+	}
+}
