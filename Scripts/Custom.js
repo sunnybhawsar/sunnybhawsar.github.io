@@ -99,10 +99,10 @@ function scrollUp(){
 }
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() >= 0 && $(window).scrollTop() < $('#left_div').innerHeight() - 400) {
+  if ($(window).scrollTop() >= 0 && $(window).scrollTop() < $('#bottom').innerHeight() - 400) {
         scrollUp();
   }
-  else if ($(window).scrollTop() >= $('#left_div').innerHeight() - 200 ) {
+  else if ($(window).scrollTop() >= $('#bottom').innerHeight() - 200 ) {
         scrollDown();
   }
 });

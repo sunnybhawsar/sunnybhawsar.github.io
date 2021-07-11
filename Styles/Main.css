@@ -12,7 +12,7 @@ body{
 	overflow:hidden;
 }
 
-#left_div{
+#bottom{
 	float: right; 
 	height: 100%; 
 	width: 70%
@@ -87,7 +87,7 @@ body{
 	font-size: 14px;
 }
 
-#right_div{
+#top{
 	float: right; 
 	height: 100%; 
 	width: 30%; 
@@ -106,7 +106,7 @@ body{
 
 #rain_div1{
 	width: 100%;
-	height: 50%;
+	height: 46%;
 	z-index: -9999999;
 }
 
@@ -127,7 +127,7 @@ body{
 
 #rain_div2{
 	width: 100%;
-	height: 40%;
+	height: 39%;
 }
 
 #down_div{
@@ -185,14 +185,14 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
-	#left_div{
+	#bottom{
 		clear:both;
 		float: left; 
 		height: 80%; 
 		width: 100%
 	}
 
-	#right_div{
+	#top{
 		clear:both;
 		float: left; 
 		height: 100%; 
@@ -239,7 +239,7 @@ body{
 	}
 
 	#rain_div2{
-	height: 30%;
+	height: 35%;
 	}
 
 	#down_div{
