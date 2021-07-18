@@ -1,10 +1,49 @@
 $(document).ready(function() {
-      //$("#rain_div1").load("../Views/Rain.html");
-      //$("#rain_div2").load("../Views/Rain.html"); 
-
       let date = new Date();
       $("#current_year").text(date.getFullYear());
 });
+
+// Sidebar - Start
+
+$(function() {
+
+  'use strict';
+
+  $('.js-menu-toggle').click(function(e) {
+
+      var $this = $(this);      
+
+      if ( $('body').hasClass('show-sidebar') ) {
+          $('body').removeClass('show-sidebar');
+          $this.removeClass('active');
+          $('main').removeClass('blur_all');
+      } 
+      else {
+          $('body').addClass('show-sidebar');    
+          $this.addClass('active');
+          $('main').addClass('blur_all');
+
+      }
+
+      e.preventDefault();
+
+  });
+
+  // click outisde offcanvas
+    $(document).mouseup(function(e) {
+    var container = $(".sidebar");
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+      if ( $('body').hasClass('show-sidebar') ) {
+                $('body').removeClass('show-sidebar');
+                $('body').find('.js-menu-toggle').removeClass('active');
+                $('main').removeClass('blur_all');
+            }
+    }
+    }); 
+
+});
+
+// Sidebar - End
 
 // Blink - Start
 
