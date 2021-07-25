@@ -521,9 +521,10 @@ aside {
 			font-size: 10px;
 			transition: 0.3s;
 			font-weight: 500;
+			font-family: poppins;
 		}
 		aside .btn-outline-info:hover {
-			color: #000;
+			color: #fff;
 			background-color: #03c5e0;
 			border-color: #03c5e0;
 		}
