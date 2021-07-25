@@ -112,13 +112,13 @@ main{
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover; 
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 #binary{
 	color: white;
 	overflow:hidden;
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 #up_div{
@@ -313,7 +313,12 @@ main{
 	}
 
 	aside{
-		width: 83% !important;
+		width: 100% !important;
+	}
+
+	.show-sidebar aside .toggle .burger:before, .show-sidebar aside .toggle .burger span, .show-sidebar aside .toggle .burger:after {
+		background: #00defd !important;
+		right: 90px !important;
 	}
 }
 
