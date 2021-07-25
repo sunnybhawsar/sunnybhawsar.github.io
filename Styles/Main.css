@@ -221,6 +221,7 @@ main{
 		height: 100%; 
 		width: 100%; 
 		overflow: hidden;
+		opacity: 0.6;
 	}
 	
 	#contents{
