@@ -33,7 +33,7 @@ main{
 	height: 95%;
     width: 100%;
     padding-top: 12%;
-    padding-left: 13%;
+    padding-left: 12%;
 }
 
 #cardContent{
@@ -202,7 +202,11 @@ main{
 	display: none;
 }
 
+.blink{
+	color: #f8fa8e;
+}
 
+/* Tablet */
 @media only screen and (max-width: 1100px) {
 	#skills1{
 		display: none;
@@ -217,6 +221,7 @@ main{
 	}
 }
 
+/* Mobile */
 @media only screen and (max-width: 800px) {
 	#bottom{
 		clear:both;
@@ -331,8 +336,12 @@ main{
 		background: #00defd !important;
 		right: 90px !important;
 	}
-}
 
+	.gutter{
+		height: 50px !important;
+	}
+}
+/* Mobile - End */
 
 /* Sidebar CSS - Start */
 
@@ -645,6 +654,9 @@ aside {
 .burger:focus {
   outline: none; }
 
+.gutter{
+	height: 0px;
+}
 
 /* Sidebar CSS - End */
 
