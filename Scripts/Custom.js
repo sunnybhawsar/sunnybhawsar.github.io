@@ -1,7 +1,34 @@
 $(document).ready(function() {
       let date = new Date();
       $("#current_year").text(date.getFullYear());
+      setYearOfExperience(date);
 });
+
+// Main - Start
+
+function setYearOfExperience(date){
+  // Date of joining 1st company - Worldpay
+  const careerStartDate = new Date(2019, 08, 02);
+  let yearsOfExp = 3;
+
+  let totalMonths = (date.getFullYear() - careerStartDate.getFullYear()) * 12;
+  totalMonths -= careerStartDate.getMonth();
+  totalMonths += date.getMonth();
+
+  let monthsOfExp = 0;
+  while(totalMonths % 12 != 0){
+    monthsOfExp += 1;
+    totalMonths -= 1;
+  }
+
+  yearsOfExp = totalMonths / 12;
+  if(monthsOfExp > 0)
+    yearsOfExp = yearsOfExp + "." + monthsOfExp;
+
+  $("#yearOfExp").text(yearsOfExp + "+");
+}
+
+// Main - End
 
 // Sidebar - Start
 
@@ -88,7 +115,7 @@ var TxtType = function(el, toRotate, period) {
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
         var that = this;
-        var delta = 200 - Math.random() * 100;
+        var delta = 200 - Math.random() * 200;
 
         if (this.isDeleting) { delta /= 2; }
 
