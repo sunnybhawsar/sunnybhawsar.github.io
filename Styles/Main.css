@@ -2,8 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-	background-image: linear-gradient(to bottom right, #00defd, #fc1dfa);
+body{		
+	background-image: linear-gradient(to bottom right, #232323, #00f3ff);
+	/* background-image: linear-gradient(to bottom right, #000b58, #00f3ff); */
+	/* background-image: linear-gradient(to bottom right, #4351af, #00f3ff); */
+	/* background-image: linear-gradient(to bottom right, #00defd, #fc1dfa); */
 	/*background-image: linear-gradient(to bottom right, #0f1010, #42d3da);*/
 }
 
@@ -333,7 +336,7 @@ main{
 	}
 
 	.show-sidebar aside .toggle .burger:before, .show-sidebar aside .toggle .burger span, .show-sidebar aside .toggle .burger:after {
-		background: #00defd !important;
+		background: #30c1d5 !important;
 		right: 90px !important;
 	}
 
@@ -534,8 +537,8 @@ aside {
 		}
 
 		aside .btn-outline-info {
-			color: #03c5e0;
-			border-color: #03c5e0;
+			color: #30c1d5;
+			border-color: #30c1d5;
 			border-radius: 1.25rem;
 			font-size: 10px;
 			transition: 0.3s;
@@ -544,8 +547,8 @@ aside {
 		}
 		aside .btn-outline-info:hover {
 			color: #fff;
-			background-color: #03c5e0;
-			border-color: #03c5e0;
+			background-color: #30c1d5;
+			border-color: #30c1d5;
 		}
 
 		aside #div-social{
@@ -580,7 +583,8 @@ aside {
 		}
 
 		aside .skill-bar-fill{
-			background: #03c5e0;
+			/* background: #03c5e0; */
+			background: #30c1d5;
 			height: 4px;
 			opacity: 0.6;
 			position: relative;
