@@ -15,7 +15,7 @@ function setYearOfExperience(date){
   totalMonths -= careerStartDate.getMonth();
   totalMonths += date.getMonth();
 
-  let monthsOfExp = 0;
+  let monthsOfExp = 1;
   while(totalMonths % 12 != 0){
     monthsOfExp += 1;
     totalMonths -= 1;
