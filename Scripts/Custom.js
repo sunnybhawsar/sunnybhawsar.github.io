@@ -11,6 +11,8 @@ function setYearOfExperience(date){
   const careerStartDate = new Date(2019, 08, 02);
   let yearsOfExp = 3;
 
+  /*
+  
   let totalMonths = (date.getFullYear() - careerStartDate.getFullYear()) * 12;
   totalMonths -= careerStartDate.getMonth();
   totalMonths += date.getMonth();
@@ -24,6 +26,8 @@ function setYearOfExperience(date){
   yearsOfExp = totalMonths / 12;
   if(monthsOfExp > 0)
     yearsOfExp = yearsOfExp + "." + monthsOfExp;
+  
+  */
 
   $("#yearOfExp").text(yearsOfExp + "+");
 }
