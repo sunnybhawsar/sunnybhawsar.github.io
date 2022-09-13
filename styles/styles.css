@@ -685,14 +685,14 @@ button {
   transition: transform .7s;
 }
 
-.social-container .twitter{color:#00aced;border-color:#00aced;}
+.social-container .twitter{color:#00aae9;border-color:#0091c7;}
 .social-container .facebook{color:#3b5998;border-color:#3b5998;}
-.social-container .googleplus{color:#dd4b39;border-color:#dd4b39;}
-.social-container .quora{color:#B92B27;border-color:#B92B27;}
+.social-container .googleplus{color:#805843;border-color:#805843;}
+.social-container .quora{color:#de7573;border-color:#ff615d;}
 .social-container .medium{color:#03A87C;border-color:#03A87C;}
 .social-container .instagram{color:#ea4c89;border-color:#ea4c89;} /*#5c3d2e*/
 .social-container .linkedin{color:#007fb1;border-color:#007fb1;}
-.social-container .envelope{color:#5c3d2e;border-color:#5c3d2e;} /*#aaca62*/
+.social-container .envelope{color:#494949;border-color:#494949;} /*#aaca62*/
 .social-container .github{color:#ffffff;border-color:#ffffff;}
 
 .social-container a i {
@@ -715,15 +715,15 @@ button {
 }
 .social-container .codepen:hover {color:rgba(0,0,0,.8);border-color:rgba(0,0,0,.8);}
 /* Hover background colors */
-.color-twitter {background-color: #00aced !important;}
+.color-twitter {background-color: #1bbef9 !important;}
 .color-facebook {background-color: #3b5998 !important;}
-.color-quora {background-color: #B92B27 !important;}
-.color-googleplus {background-color: #dd4b39 !important;}
+.color-quora {background-color: #fd7371 !important;}
+.color-googleplus {background-color: #72503f !important;}
 .color-github{background-color:#24292E !important;}
 .color-medium {background-color: #03A87C !important;}
-.color-instagram {background-color: #ea4c89 !important;}
-.color-linkedin{background-color:#007fb1 !important;}
-.color-envelope{background-color:#5c3d2e !important;}
+.color-instagram {background-color: #fc6ea5 !important;}
+.color-linkedin{background-color:#3ab6e7 !important;}
+.color-envelope{background-color:#585755 !important;}
 
 
 .color-twitter,.color-facebook,.color-pinterest,.color-googleplus,.color-dribbble,.color-instagram {
