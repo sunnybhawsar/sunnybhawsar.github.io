@@ -1153,16 +1153,12 @@ small {
 /* Mobile */
 @media only screen and (max-width: 800px) {
   .intro {
-    padding-top: 40vh;
+    padding-top: 30vh;
   }
 
   .intro > h1 {
-    font-size: 2em;
+    font-size: 3.3em;
     margin-bottom: 3rem;
-  }
-  
-  .typewrite{
-    font-size: 1.5em;
   }
 
   .aboutTab{
